@@ -45,7 +45,7 @@ const Team = () => {
     });
 
     // Map vertical scroll progress (0 to 1) to horizontal translation
-    const x = useTransform(scrollYProgress, [0, 1], ["0%", "-50%"]);
+    const x = useTransform(scrollYProgress, [0, 1], ["0%", "calc(-100% + 100vw)"]);
 
     return (
         <section ref={targetRef} id="trainers" className="h-[200vh] bg-black relative">
@@ -80,7 +80,7 @@ const Team = () => {
                 <div className="w-full pl-4 sm:pl-6 lg:pl-16">
                     <motion.div
                         style={{ x }}
-                        className="flex gap-8 w-[200vw] lg:w-[150vw]"
+                        className="flex gap-6 md:gap-8 w-max pr-4 md:pr-16"
                     >
                         {teamMembers.map((member, index) => (
                             <div
@@ -96,8 +96,8 @@ const Team = () => {
                                 </div>
 
                                 {/* White Overlay Card */}
-                                <div className="absolute bottom-6 left-6 right-6 bg-white p-6 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 shadow-2xl">
-                                    <h4 className="text-black font-black heading-font uppercase text-2xl mb-1">{member.name}</h4>
+                                <div className="absolute bottom-6 left-4 right-4 md:left-6 md:right-6 bg-white p-4 md:p-6 translate-y-0 opacity-100 md:translate-y-4 md:opacity-0 md:group-hover:translate-y-0 md:group-hover:opacity-100 transition-all duration-500 shadow-2xl">
+                                    <h4 className="text-black font-black heading-font uppercase text-xl md:text-2xl mb-1">{member.name}</h4>
                                     <div className="w-8 h-[2px] bg-black mb-2"></div>
                                     <p className="text-gray-600 font-bold text-xs uppercase tracking-widest">{member.role}</p>
                                 </div>
