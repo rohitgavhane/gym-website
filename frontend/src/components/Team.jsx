@@ -45,7 +45,8 @@ const Team = () => {
     });
 
     // Map vertical scroll progress (0 to 1) to horizontal translation
-    const x = useTransform(scrollYProgress, [0, 1], ["0%", "calc(-100% + 100vw)"]);
+    // Framer motion smoothly interpolates templates if the characters match exactly
+    const x = useTransform(scrollYProgress, [0, 1], ["calc(0% + 0vw)", "calc(-100% + 100vw)"]);
 
     return (
         <section ref={targetRef} id="trainers" className="h-[200vh] bg-black relative">
