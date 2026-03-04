@@ -34,7 +34,7 @@ const Reviews = () => {
                         transition={{ duration: 0.6 }}
                         className="md:col-span-4 h-64 md:h-auto overflow-hidden group rounded-2xl"
                     >
-                        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1470&auto=format&fit=crop" className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700" alt="Fitness" />
+                        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1470&auto=format&fit=crop" className="w-full h-full object-cover md:grayscale md:group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700" alt="Fitness" />
                     </motion.div>
 
                     {/* Box 2: White Highlight Review (Fade Up) */}
@@ -51,7 +51,7 @@ const Reviews = () => {
                         </p>
                         <div className="flex items-center gap-4">
                             <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-transparent group-hover:border-[var(--color-brand-lime)] transition-colors duration-500">
-                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1470&auto=format&fit=crop" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" alt="User" />
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1470&auto=format&fit=crop" className="w-full h-full object-cover md:grayscale md:group-hover:grayscale-0 transition-all duration-500" alt="User" />
                             </div>
                             <div>
                                 <h4 className="font-black text-black uppercase text-sm">Sarah Jenkins</h4>
@@ -68,7 +68,7 @@ const Reviews = () => {
                         transition={{ duration: 0.6, delay: 0.2 }}
                         className="md:col-span-4 h-64 md:h-auto overflow-hidden group rounded-2xl"
                     >
-                        <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=1469&auto=format&fit=crop" className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700" alt="Sprint" />
+                        <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=1469&auto=format&fit=crop" className="w-full h-full object-cover md:grayscale md:group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700" alt="Sprint" />
                     </motion.div>
 
                     {/* Box 4: Dark Review Left (Slide Right) */}
@@ -85,7 +85,7 @@ const Reviews = () => {
                         </p>
                         <div className="flex items-center gap-4">
                             <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-transparent group-hover:border-[var(--color-brand-lime)] transition-colors duration-500">
-                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1374&auto=format&fit=crop" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" alt="User" />
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1374&auto=format&fit=crop" className="w-full h-full object-cover md:grayscale md:group-hover:grayscale-0 transition-all duration-500" alt="User" />
                             </div>
                             <div>
                                 <h4 className="font-bold text-white uppercase text-sm">David Chen</h4>
@@ -102,7 +102,7 @@ const Reviews = () => {
                         transition={{ duration: 0.6, delay: 0.4 }}
                         className="md:col-span-4 h-64 md:h-auto overflow-hidden group rounded-2xl"
                     >
-                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1470&auto=format&fit=crop" className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700" alt="Weights" />
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1470&auto=format&fit=crop" className="w-full h-full object-cover md:grayscale md:group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700" alt="Weights" />
                     </motion.div>
 
                     {/* Box 6: Dark Review Right (Slide Left) */}
@@ -119,7 +119,7 @@ const Reviews = () => {
                         </p>
                         <div className="flex items-center gap-4">
                             <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-transparent group-hover:border-[var(--color-brand-lime)] transition-colors duration-500">
-                                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1364&auto=format&fit=crop" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" alt="User" />
+                                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1364&auto=format&fit=crop" className="w-full h-full object-cover md:grayscale md:group-hover:grayscale-0 transition-all duration-500" alt="User" />
                             </div>
                             <div>
                                 <h4 className="font-bold text-white uppercase text-sm">Alicia Reyes</h4>

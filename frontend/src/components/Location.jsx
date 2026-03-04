@@ -25,7 +25,7 @@ const Location = () => {
                             transition={{ duration: 0.8 }}
                             className="h-[300px] md:h-[600px] w-full group relative overflow-hidden rounded-2xl md:rounded-none"
                         >
-                            <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=1470&auto=format&fit=crop" className="w-full h-full object-cover grayscale transition-all duration-700 group-hover:scale-110 group-hover:grayscale-0" alt="Join King's" />
+                            <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=1470&auto=format&fit=crop" className="w-full h-full object-cover md:grayscale transition-all duration-700 group-hover:scale-110 md:group-hover:grayscale-0" alt="Join King's" />
                             {/* Overlay shadow for depth */}
                             <div className="absolute inset-0 shadow-[inset_0_0_100px_rgba(0,0,0,0.8)] pointer-events-none"></div>
                         </motion.div>

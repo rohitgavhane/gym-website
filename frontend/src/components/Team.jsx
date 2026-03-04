@@ -91,7 +91,7 @@ const Team = () => {
                                     <img
                                         src={member.image}
                                         alt={member.name}
-                                        className="w-full h-full object-cover grayscale transition-transform duration-700 group-hover:scale-110 group-hover:grayscale-0"
+                                        className="w-full h-full object-cover md:grayscale transition-transform duration-700 group-hover:scale-110 md:group-hover:grayscale-0"
                                     />
                                 </div>
 

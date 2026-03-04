@@ -45,7 +45,7 @@ const Facilities = () => {
                                     loop
                                     muted
                                     playsInline
-                                    className="w-full h-[300px] sm:h-[400px] md:h-[500px] object-cover shadow-2xl grayscale hover:grayscale-0 transition-all duration-700 rounded-[2rem] border border-[var(--color-brand-lime)]/30 relative z-10"
+                                    className="w-full h-[300px] sm:h-[400px] md:h-[500px] object-cover shadow-2xl md:grayscale md:hover:grayscale-0 transition-all duration-700 rounded-[2rem] border border-[var(--color-brand-lime)]/30 relative z-10"
                                 />
                             </motion.div>
                             <motion.div
@@ -119,7 +119,7 @@ const Facilities = () => {
                                 transition={{ duration: 0.5 }}
                                 src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1470&auto=format&fit=crop"
                                 alt="Gallery 1"
-                                className="absolute inset-0 w-full h-[120%] -top-[10%] object-cover grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-700 origin-center"
+                                className="absolute inset-0 w-full h-[120%] -top-[10%] object-cover md:grayscale md:brightness-75 md:group-hover:grayscale-0 md:group-hover:brightness-100 transition-all duration-700 origin-center"
                             />
                             <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500 pointer-events-none"></div>
                             <div className="absolute bottom-6 left-6 bg-white/10 backdrop-blur-md border border-white/20 text-white font-black uppercase tracking-widest px-6 py-3 text-sm shadow-xl rounded-full group-hover:bg-[var(--color-brand-lime)] group-hover:text-black group-hover:border-transparent transition-all duration-300 pointer-events-none">
@@ -135,7 +135,7 @@ const Facilities = () => {
                                 transition={{ duration: 0.5 }}
                                 src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?q=80&w=1470&auto=format&fit=crop"
                                 alt="Gallery 2"
-                                className="absolute inset-0 w-full h-[120%] -top-[10%] object-cover grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-700 origin-center"
+                                className="absolute inset-0 w-full h-[120%] -top-[10%] object-cover md:grayscale md:brightness-75 md:group-hover:grayscale-0 md:group-hover:brightness-100 transition-all duration-700 origin-center"
                             />
                             <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500 pointer-events-none"></div>
                             <div className="absolute bottom-6 right-6 bg-white/10 backdrop-blur-md border border-white/20 text-white font-black uppercase tracking-widest px-6 py-3 text-sm shadow-xl rounded-full group-hover:bg-[var(--color-brand-lime)] group-hover:text-black group-hover:border-transparent transition-all duration-300 pointer-events-none">

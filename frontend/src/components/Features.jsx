@@ -79,7 +79,7 @@ const Features = () => {
                         <img
                             src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=1470&auto=format&fit=crop"
                             alt="Gym Motivation"
-                            className="w-full h-full object-cover min-h-[300px] grayscale group-hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-110"
+                            className="w-full h-full object-cover min-h-[300px] md:grayscale md:group-hover:grayscale-0 transition-all duration-700 scale-100 md:group-hover:scale-110"
                         />
                         <div className="absolute inset-0 bg-black/40 group-hover:bg-transparent transition-colors duration-500"></div>
                     </motion.div>
