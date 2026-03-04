@@ -19,7 +19,7 @@ const About = () => {
                             <span className="text-[var(--color-brand-lime)] font-black text-xl">●</span>
                             <span className="font-bold tracking-[0.2em] text-sm uppercase">About Gymix</span>
                         </div>
-                        <h2 className="text-4xl md:text-5xl lg:text-6xl font-black heading-font leading-tight text-black">
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black heading-font leading-tight text-black">
                             WE BELIEVE FITNESS ISN'T<br />
                             JUST ABOUT LIFTING WEIGHTS<br />
                             IT'S ABOUT BUILDING
@@ -41,7 +41,7 @@ const About = () => {
                             <img
                                 src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=1769&auto=format&fit=crop"
                                 alt="Gymnast stretching"
-                                className="w-full max-w-[300px] h-[200px] object-cover rounded-md"
+                                className="w-full max-w-[300px] h-[150px] sm:h-[200px] object-cover rounded-md"
                             />
                         </motion.div>
 
@@ -96,7 +96,7 @@ const About = () => {
                             <img
                                 src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1470&auto=format&fit=crop"
                                 alt="Gym Setting"
-                                className="w-full h-[550px] object-cover rounded-md shadow-2xl"
+                                className="w-full h-[350px] md:h-[550px] object-cover rounded-md shadow-2xl"
                             />
                         </motion.div>
                     </div>

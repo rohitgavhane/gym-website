@@ -45,13 +45,13 @@ const Facilities = () => {
                                     loop
                                     muted
                                     playsInline
-                                    className="w-full h-[500px] object-cover shadow-2xl grayscale hover:grayscale-0 transition-all duration-700 rounded-[2rem] border border-[var(--color-brand-lime)]/30 relative z-10"
+                                    className="w-full h-[300px] sm:h-[400px] md:h-[500px] object-cover shadow-2xl grayscale hover:grayscale-0 transition-all duration-700 rounded-[2rem] border border-[var(--color-brand-lime)]/30 relative z-10"
                                 />
                             </motion.div>
                             <motion.div
                                 animate={{ rotate: [0, 360] }}
                                 transition={{ repeat: Infinity, duration: 25, ease: "linear" }}
-                                className="absolute -top-10 -left-10 w-32 h-32 border-[2px] border-dashed border-[var(--color-brand-lime)] rounded-full opacity-40 pointer-events-none z-0"
+                                className="absolute -top-4 -left-4 md:-top-10 md:-left-10 w-24 h-24 md:w-32 md:h-32 border-[2px] border-dashed border-[var(--color-brand-lime)] rounded-full opacity-40 pointer-events-none z-0"
                             />
                         </motion.div>
 
@@ -75,13 +75,13 @@ const Facilities = () => {
 
                             <div className="flex flex-col sm:flex-row gap-12">
                                 <div>
-                                    <h3 className="text-6xl font-black heading-font m-0 p-0 leading-none text-black">60+</h3>
-                                    <p className="font-bold uppercase tracking-wider text-sm mt-2 text-gray-500">Expert<br />Trainers</p>
+                                    <h3 className="text-5xl md:text-6xl font-black heading-font m-0 p-0 leading-none text-black">60+</h3>
+                                    <p className="font-bold uppercase tracking-wider text-xs md:text-sm mt-2 text-gray-500">Expert<br />Trainers</p>
                                 </div>
                                 <div className="w-[1px] bg-gray-300 hidden sm:block"></div>
                                 <div>
-                                    <h3 className="text-6xl font-black heading-font m-0 p-0 leading-none text-black">95%</h3>
-                                    <p className="font-bold uppercase tracking-wider text-sm mt-2 text-gray-500">Client<br />Satisfaction</p>
+                                    <h3 className="text-5xl md:text-6xl font-black heading-font m-0 p-0 leading-none text-black">95%</h3>
+                                    <p className="font-bold uppercase tracking-wider text-xs md:text-sm mt-2 text-gray-500">Client<br />Satisfaction</p>
                                 </div>
                             </div>
                         </motion.div>
@@ -112,7 +112,7 @@ const Facilities = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-16">
 
                         {/* Parallax Image Left */}
-                        <div className="relative h-[600px] w-full overflow-hidden rounded-2xl group cursor-pointer border border-white/5 bg-black">
+                        <div className="relative h-[400px] md:h-[600px] w-full overflow-hidden rounded-2xl group cursor-pointer border border-white/5 bg-black">
                             <motion.img
                                 style={{ y: imgParallax1 }}
                                 whileHover={{ scale: 1.05 }}
@@ -128,7 +128,7 @@ const Facilities = () => {
                         </div>
 
                         {/* Parallax Image Right */}
-                        <div className="relative h-[600px] w-full overflow-hidden mt-0 md:mt-24 rounded-2xl group cursor-pointer border border-white/5 bg-black">
+                        <div className="relative h-[400px] md:h-[600px] w-full overflow-hidden mt-0 md:mt-24 rounded-2xl group cursor-pointer border border-white/5 bg-black">
                             <motion.img
                                 style={{ y: imgParallax2 }}
                                 whileHover={{ scale: 1.05 }}

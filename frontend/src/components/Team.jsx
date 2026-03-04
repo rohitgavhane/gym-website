@@ -29,7 +29,7 @@ const teamMembers = [
         image: "https://images.unsplash.com/photo-1549476464-37392f717541?q=80&w=1374&auto=format&fit=crop"
     },
     {
-        name: "Mia Khalifa",
+        name: "Saddie Sink",
         role: "Pilates Instructor",
         image: "https://images.unsplash.com/photo-1518611507436-f9221403cca2?q=80&w=1470&auto=format&fit=crop"
     }
@@ -64,7 +64,7 @@ const Team = () => {
                                 <span className="text-white font-black text-xl">●</span>
                                 <span className="text-gray-400 font-bold tracking-[0.2em] text-sm uppercase">Trainers</span>
                             </div>
-                            <h2 className="text-4xl md:text-5xl lg:text-7xl font-black heading-font leading-tight text-white uppercase">
+                            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-black heading-font leading-tight text-white uppercase">
                                 Meet Our Expert<br />Team Member
                             </h2>
                         </div>

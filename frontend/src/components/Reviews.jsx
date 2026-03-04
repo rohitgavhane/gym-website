@@ -17,7 +17,7 @@ const Reviews = () => {
                             <span className="text-black font-black text-xl">●</span>
                             <span className="font-bold tracking-[0.2em] text-sm uppercase text-gray-500">Testimonials</span>
                         </div>
-                        <h2 className="text-5xl md:text-6xl lg:text-7xl font-black heading-font leading-tight text-black uppercase">
+                        <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black heading-font leading-tight text-black uppercase">
                             Fitness Journeys<br />That Motivate
                         </h2>
                     </motion.div>
@@ -43,7 +43,7 @@ const Reviews = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true, margin: "-50px" }}
                         transition={{ duration: 0.6, delay: 0.1 }}
-                        className="md:col-span-4 bg-gray-100 p-10 flex flex-col justify-between min-h-[300px] border border-transparent rounded-2xl group hover:border-[var(--color-brand-lime)] hover:shadow-2xl transition-all duration-500"
+                        className="md:col-span-4 bg-gray-100 p-6 md:p-10 flex flex-col justify-between min-h-[250px] md:min-h-[300px] border border-transparent rounded-2xl group hover:border-[var(--color-brand-lime)] hover:shadow-2xl transition-all duration-500"
                     >
                         <div className="text-[var(--color-brand-lime)] font-black text-6xl opacity-20 group-hover:opacity-100 heading-font leading-none transition-opacity duration-500">"</div>
                         <p className="text-black font-bold text-lg leading-relaxed mt-[-20px] mb-8">
@@ -77,7 +77,7 @@ const Reviews = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true, margin: "-50px" }}
                         transition={{ duration: 0.6, delay: 0.3 }}
-                        className="md:col-span-4 bg-black p-10 flex flex-col justify-between min-h-[300px] border border-white/5 rounded-2xl group hover:border-[var(--color-brand-lime)] hover:shadow-[0_0_20px_rgba(214,255,0,0.1)] transition-all duration-500"
+                        className="md:col-span-4 bg-black p-6 md:p-10 flex flex-col justify-between min-h-[250px] md:min-h-[300px] border border-white/5 rounded-2xl group hover:border-[var(--color-brand-lime)] hover:shadow-[0_0_20px_rgba(214,255,0,0.1)] transition-all duration-500"
                     >
                         <div className="text-[var(--color-brand-lime)] font-black text-6xl opacity-30 group-hover:opacity-100 heading-font leading-none transition-opacity duration-500">"</div>
                         <p className="text-gray-300 font-medium text-sm leading-relaxed mt-[-20px] mb-8 group-hover:text-white transition-colors duration-500">
@@ -111,7 +111,7 @@ const Reviews = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true, margin: "-50px" }}
                         transition={{ duration: 0.6, delay: 0.5 }}
-                        className="md:col-span-4 bg-black p-10 flex flex-col justify-between min-h-[300px] border border-white/5 rounded-2xl group hover:border-[var(--color-brand-lime)] hover:shadow-[0_0_20px_rgba(214,255,0,0.1)] transition-all duration-500"
+                        className="md:col-span-4 bg-black p-6 md:p-10 flex flex-col justify-between min-h-[250px] md:min-h-[300px] border border-white/5 rounded-2xl group hover:border-[var(--color-brand-lime)] hover:shadow-[0_0_20px_rgba(214,255,0,0.1)] transition-all duration-500"
                     >
                         <div className="text-[var(--color-brand-lime)] font-black text-6xl opacity-30 group-hover:opacity-100 heading-font leading-none transition-opacity duration-500">"</div>
                         <p className="text-gray-300 font-medium text-sm leading-relaxed mt-[-20px] mb-8 group-hover:text-white transition-colors duration-500">
