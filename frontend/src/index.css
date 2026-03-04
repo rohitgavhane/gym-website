@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-lime: #D6FF00;
+  --color-brand-dark: #000000;
+  --color-brand-card: #0A0A0A;
+  --color-brand-light: #FFFFFF;
+  --color-brand-gray: #111111;
+  --color-accent-blue: #FFFFFF;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Archivo Black', 'Syne', system-ui, sans-serif;
+  --font-display: 'Syne', system-ui, sans-serif;
+}
+
+:root {
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #111111;
+  background-color: var(--color-brand-dark);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Custom Typography Utilities */
+@utility heading-font {
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+}
+
+@utility display-font {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+}
+
+@utility section-padding {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
